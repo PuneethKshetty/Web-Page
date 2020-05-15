@@ -1,0 +1,27 @@
+	.map-container-section {
+		  overflow:hidden;
+		  padding-bottom:56.25%;
+		  position:relative;
+		  height:0;
+		}
+		.map-container-section iframe {
+		  left:0;
+		  top:0;
+		  height:100%;
+		  width:100%;
+		  position:absolute;
+		}
+		.bg-img {
+		  /* The image used */
+		  background-image: url("https://cdn.worldvectorlogo.com/logos/contacts-ios.svg");
+
+
+      min-height:800px;
+			min-width:100px;
+
+		  /* Center and scale the image nicely */
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  position: relative;
+		}
